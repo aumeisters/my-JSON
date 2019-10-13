@@ -1,0 +1,29 @@
+{
+   "title": "Me",
+   "description": "About Me",
+   "type": "object",
+   "properties":
+   {
+      "firstName":
+      {
+         "description": "My name",
+         "type": "string"
+      },
+      "secondName":
+      {
+         "description": "My second name",
+         "type": "string"
+      },
+      "city":
+      {
+         "description": "City where I'm living",
+         "type": "string"
+      },
+      "hobbies":
+      {
+         "description": "Some of my hobbies",
+         "type": "array"
+      },                                                                      
+   },
+   "required": ["firstName", "secondName","city","hobbies"]    
+}
